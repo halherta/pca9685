@@ -2,7 +2,7 @@
 
 This is a MicroPython class for controlling the PCA9685, a 16-channel PWM controller, over I2C. The class provides methods for setting PWM frequency, controlling duty cycles, and managing servos.
 
-Tested on the ESP32S3 microcontroller, but it should work with other microcontrollers that support the machine.I2C class.\
+Tested on the ESP32S3 microcontroller, but it should work with other microcontrollers that support the `machine.I2C` class.
 
 ### Features
 
