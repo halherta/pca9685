@@ -153,7 +153,7 @@ class PCA9685Driver:
         """Enable internal oscillator"""
         mode1_val = self._read_reg(PCA9685Registers.MODE1)
         if(((mode1_val >> MODE1RegBits.SLEEP) & 0x01) != 0 ):
-           mode1_val = self._clear_bit(mode1_val,MODE1RegBits.SLEEPT)
+           mode1_val = self._clear_bit(mode1_val,MODE1RegBits.SLEEP)
            self._write_reg(PCA9685Registers.MODE1, mode1_val)
            time.sleep_us(500)
             
