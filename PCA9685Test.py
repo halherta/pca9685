@@ -1,4 +1,4 @@
-from PCA9685Driverv2 import PCA9685Driver
+from pca9685 import PCA9685Driver
 import time
 p = PCA9685Driver()
 #print address of device (0x40 == 64)
