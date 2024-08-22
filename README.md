@@ -28,7 +28,7 @@ Copy the PCA9685Driver class to your MicroPython project.
 #### Example: Basic Usage
 
 ``` python
-from PCA9685Driver import PCA9685Driver
+from pca9685 import PCA9685Driver
 import time
 
 # Initialize PCA9685 with default I2C settings
