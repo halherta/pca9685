@@ -84,7 +84,7 @@ while True:
 
 - The default I2C address for PCA9685 is 0x40.
 - The class assumes a default PWM frequency of 50 Hz, which is typical for servo motors.
-- Ensure the I2C pins (SCL, SDA) are correctly set according to your hardware configuration.
+- When instantiating the PCA9685Driver object, ensure the I2C pins (SCL, SDA) are correctly set according to your hardware configuration. The defaults are `scl_pin=48` and `sda_pin=47`
 
 ### License
 
